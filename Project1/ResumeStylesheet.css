@@ -1,0 +1,32 @@
+body {
+	background-color: pink;
+	text-align: auto;
+}
+
+h1 {
+	font-family: Arial, san-serif;
+	font-size: 30px;
+}
+
+p {
+	font-family: san-serif;
+	color: grey;
+	font-size: 18px;
+}
+
+.page {
+	background-color: white;
+	margin: 50px 50px 50px 50px;
+	padding: 50px 50px 50px 50px;
+}
+
+#intro {
+	text-align: center;
+}
+
+table {
+	/*insert some ish*/
+}
+
+/*do some ish for links*/
+/*do some ish for image*/
