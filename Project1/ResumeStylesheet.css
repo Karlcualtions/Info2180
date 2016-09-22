@@ -1,10 +1,10 @@
 body {
-	background-color: pink;
+	background-color: white;
 	text-align: auto;
+	font-family: Arial, san-serif;
 }
 
 h1 {
-	font-family: Arial, san-serif;
 	font-size: 30px;
 }
 
@@ -15,18 +15,42 @@ p {
 }
 
 .page {
-	background-color: white;
+	background-color: #f2f2f2;
 	margin: 50px 50px 50px 50px;
 	padding: 50px 50px 50px 50px;
 }
 
 #intro {
-	text-align: center;
+	width: 50em; /*can be removed*/
+	text-align: left;
+	word-wrap:break-word;
 }
 
 table {
-	/*insert some ish*/
+	font-size: 20px;
+	width: 100%;
 }
+
+#space {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.vertical-line {
+	width:1px;
+	background-color: black;
+	display: inline-block;
+}
+
+#headings {
+	font-weight: bold;
+	font-style:italic;
+}
+
+.info {
+	font-size: 18px;
+}
+
 
 /*do some ish for links*/
 /*do some ish for image*/
