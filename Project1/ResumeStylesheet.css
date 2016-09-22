@@ -1,15 +1,16 @@
 body {
 	background-color: white;
-	text-align: auto;
-	font-family: Arial, san-serif;
+	float: auto;
+	font-family: Verdana, Sans-serif, Arial;
 }
 
 h1 {
 	font-size: 30px;
+	font-family: Verdana, Sans-serif, Arial;
 }
 
 p {
-	font-family: san-serif;
+	font-family: Verdana, Sans-serif, Arial;
 	color: black;
 	font-size: 18px;
 }
@@ -21,21 +22,23 @@ p {
 }
 
 #intro {
-	width: 50em; /*can be removed*/
+	font-family: serif;
+	font-style: italic;
+	color: #777777;
 	text-align: left;
 	word-wrap:break-word;
 }
 
 table {
-	font-size: 20px;
+	font-size: 22px;
 	width: 100%;
 }
 
 #space {
-	padding-top: .5em;
-	padding-bottom: .5em;
+	padding-bottom: 1em;
 }
 
+/*adjust this*/
 .vertical-line {
 	width:1px;
 	background-color: black;
@@ -51,6 +54,16 @@ table {
 	font-size: 18px;
 }
 
+a {
+	color: #777777;
+}
+
+span {
+	float: right;
+	color: #777777;
+	font-family: serif;
+	font-style: italic;
+}
 
 /*do some ish for links*/
-/*do some ish for image*/
+/*do some ish for image...float the image such that the paragraph wraps around it*/
