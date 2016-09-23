@@ -30,28 +30,31 @@ p {
 }
 
 table {
+	border-collapse:separate;
+	border-spacing: 50px;
 	font-size: 22px;
 	width: 100%;
 }
 
-#space {
-	padding-bottom: 1em;
+td {
+	vertical-align:top;
 }
 
-/*adjust this*/
-.vertical-line {
-	width:1px;
-	background-color: black;
-	display: inline-block;
+td:nth-child(1){
+	border-right: solid black 2px;
 }
 
-#headings {
+td:nth-child(2){
+	padding-left: 1em;
+}
+.headings {
 	font-weight: bold;
 	font-style:italic;
 }
 
 .info {
 	font-size: 18px;
+	padding-bottom: 2em;
 }
 
 a {
