@@ -1,7 +1,17 @@
 body {
+	width: 100%;
+	position: relative;
 	background-color: white;
 	float: auto;
 	font-family: Verdana, Sans-serif, Arial;
+}
+
+img {
+	position: absolute;
+	right: 160px;
+	-ms-transform: rotate(-3deg); /* IE */
+    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    transform: rotate(-3deg);
 }
 
 h1 {
@@ -17,11 +27,12 @@ p {
 
 .page {
 	background-color: #f2f2f2;
-	margin: 50px 50px 50px 50px;
+	margin: 100px 100px 100px 100px;
 	padding: 50px 50px 50px 50px;
 }
 
 #intro {
+	width: 60em;
 	font-family: serif;
 	font-style: italic;
 	color: #777777;
