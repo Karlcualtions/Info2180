@@ -6,13 +6,18 @@ body {
 	font-family: Verdana, Sans-serif, Arial;
 }
 
+/*.img_outline {
+	box-shadow: 1px 1px 2px 2px grey;
+	background: white;
+}*/
+
 img {
 	border: solid 10px white;
-	position: absolute;
-	right: 160px;
-	-ms-transform: rotate(-3deg); /* IE */
-    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
-    transform: rotate(-3deg);
+	float: right;
+	position: relative;
+	-ms-transform: rotate(-2deg); /* IE */
+    -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
+    transform: rotate(-2deg);*/
 }
 
 h1 {
@@ -70,7 +75,7 @@ td:nth-child(2){
 }
 
 a {
-	color: #777777;
+	color: blue;
 }
 
 span {
